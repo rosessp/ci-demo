@@ -1,7 +1,6 @@
 FROM ubuntu
 
-RUN apt-get update \
-    && apt-get install -y git
+RUN apt-get update 
 
 RUN mkdir /home/ci-demo-dir 
 
