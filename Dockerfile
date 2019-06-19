@@ -1,4 +1,4 @@
 FROM ubuntu
 
 RUN apt-get update
-CMD ["echo","First Docker Image Created"] 
+CMD ["echo","Docker Image Created"] 
