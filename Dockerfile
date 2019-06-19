@@ -2,6 +2,6 @@ FROM ubuntu
 
 RUN apt-get update 
 
-RUN mkdir /home/ci-demo-dir 
+RUN mkdir /home/roja/ci-demo-dir 
 
 CMD ["echo","SUCCESS: Docker Image Created"] 
