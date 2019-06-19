@@ -2,6 +2,6 @@ FROM ubuntu
 
 RUN apt-get update 
 
-RUN mkdir /opt/ci-demo-dir 
+RUN mkdir /home/cidemo 
 
 CMD ["echo","SUCCESS: Docker Image Created"] 
